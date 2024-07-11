@@ -28,7 +28,7 @@
     @endforeach
 
         <div>
-            <h2>{{ $winner->name }}</h2>
+            <h2>Ganador: {{ $winner->name }}</h2>
             <ul>
                 <li>Nivel de Habilidad: {{ $winner->skill_level }}</li>
                 <li>Género: {{ $winner->gender }}</li>
